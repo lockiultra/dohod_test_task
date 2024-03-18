@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dohod-test-task"
+version = "0.1.0"
+description = ""
+authors = ["lockiultra <lockiultra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.38.2"
+accelerate = "^0.28.0"
+datasets = "^2.18.0"
+nltk = "^3.8.1"
+rouge = "^1.0.1"
+tqdm = "^4.66.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
